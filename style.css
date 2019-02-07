@@ -1,0 +1,1049 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.google.com/css?family=Montserrat:100,300,700');
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url(fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Thin";
+    src: url(fonts/Montserrat-Thin.ttf);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(img/slider.jpg);
+    height: 800px;
+}
+
+.header .logo,
+.products_header .logo {
+    margin-left: 98px;
+    margin-top: 63px;
+}
+
+.menu {
+    float: right;
+    margin-right: 145px;
+    margin-top: 49px;
+}
+
+.menu li {
+    list-style-type: none;
+    float: left;
+}
+
+.menu li a {
+    color: #8c8c8c;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 48px;
+    /* Приближение из-за подстановки шрифтов */
+    text-decoration: none;
+    display: block;
+    padding: 0 17px;
+}
+
+.menu li a:hover {
+    font-family: "Montserrat-Bold";
+    color: #212121;
+    border-bottom: 1px solid black;
+}
+
+.text {
+    width: 458px;
+    margin-top: 265px;
+    margin-left: 98px;
+}
+
+.text h3 {
+    font-family: "Montserrat-Bold";
+    color: #43a047;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 48px;
+    font-style: bold;
+}
+
+.text h1 {
+    font-family: "Montserrat-Thin";
+    color: #212121;
+    font-size: 58px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 100;
+    line-height: 60px;
+    /* Приближение из-за подстановки шрифтов */
+}
+
+.text p {
+    font-family: "Montserrat-Light";
+    margin-top: 15px;
+    color: #6c6c6c;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+}
+
+.text a {
+    font-family: "Montserrat-Bold";
+    margin-top: 30px;
+    display: block;
+    background: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    text-decoration: none;
+    border-radius: 22px;
+    text-align: center;
+    line-height: 45px;
+    color: #212121;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+}
+
+.text a:hover {
+    background: #ffffff url('img/arrow.png') no-repeat 173px 16px;
+}
+
+.circles {
+    text-align: center;
+    margin-top: 140px;
+    margin-left: 618px;
+    vertical-align: center;
+    line-height: 40px;
+}
+
+.circles li {
+    list-style-type: none;
+    float: left;
+    display: inline-block;
+    color: rgba(33, 33, 33, 0.2);
+    font-size: 30px;
+    margin: 0 8px 0 8px;
+}
+
+.circles li:hover {
+    color: black;
+    font-size: 40px;
+}
+
+.featured {
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+}
+
+.featured_menu {
+    margin-left: 107px;
+    margin-top: 150px;
+}
+
+.featured_menu li {
+    list-style-type: none;
+    float: left;
+}
+
+.featured_menu li a {
+    font-family: "Montserrat-Bold";
+    color: #6c6c6c;
+    font-size: 36px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #6c6c6c;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.featured_menu li a:hover {
+    font-family: "Montserrat-Bold";
+    color: #212121;
+    border-bottom: 3px solid black;
+}
+
+#explore {
+    width: 900px;
+}
+
+#explore a {
+    margin-left: 710px;
+    margin-top: 20px;
+    display: block;
+    font-family: "Montserrat-Bold";
+    color: #212121;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    vertical-align: bottom;
+    text-decoration: none;
+    border-bottom: 0px;
+}
+
+#explore a:hover {
+    background: #ffffff url('img/arrow.png') no-repeat 165px 5px;
+}
+
+.image {
+    display: inline-block;
+    margin-left: 98px;
+    margin-top: 50px;
+}
+
+.image a {
+    display: block;
+    float: left;
+    width: 270px;
+    height: 270px;
+    margin-right: 30px;
+    outline: 1px solid #ffffff;
+    position: relative;
+}
+
+.image a:hover {
+    outline: 1px solid #9c9c9c;
+}
+
+.image a:hover .image1_text {
+    display: block;
+    opacity: 0.9;
+    background-color: #ffffff;
+}
+
+.image1_text,
+.image2_text,
+.image3_text,
+.image4_text {
+    position: absolute;
+    height: 270px;
+    width: 270px;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.image1_text i,
+.image2_text i,
+.image3_text i,
+.image4_text i {
+    margin-top: 62px;
+    margin-left: 111px;
+    display: block;
+    background-image: url(img/arrow2.png);
+    background-repeat: no-repeat;
+    background-position: 20px 15px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 48px;
+    height: 48px;
+}
+
+.image1_text h4,
+.image2_text h4,
+.image3_text h4,
+.image4_text h4 {
+    padding-top: 19px;
+    color: #212121;
+    font-size: 21.91px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    transform: scaleX(1.0041);
+}
+
+.image1_text p,
+.image2_text p,
+.image3_text p,
+.image4_text p {
+    color: #6c6c6c;
+    font-size: 13.94px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: center;
+    transform: scaleX(1.0041);
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-top: 10px;
+}
+
+.image a:hover .image2_text {
+    display: block;
+    opacity: 0.9;
+    background-color: #ffffff;
+}
+
+.image a:hover .image3_text {
+    display: block;
+    opacity: 0.9;
+    background-color: #ffffff;
+}
+
+.image a:hover .image4_text {
+    display: block;
+    opacity: 0.9;
+    background-color: #ffffff;
+}
+
+.exclusive {
+    margin-top: 0px;
+    position: relative;
+}
+
+.exclusive1 {
+    background: url('img/promo-img1.jpg') no-repeat;
+    width: 632px;
+    height: 470px;
+    padding-top: 213px;
+    padding-left: 51px;
+}
+
+.exclusive1_text h3 {
+    font-family: "Montserrat-Bold";
+    color: #1e88e5;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 48px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-top: -10px;
+}
+
+.exclusive1_text h1 {
+    font-family: "Montserrat-Bold";
+    color: #212121;
+    font-size: 36px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+}
+
+.exclusive1_text p {
+    margin-top: 5px;
+    font-family: "Montserrat-Light";
+    color: #6c6c6c;
+    font-size: 13.99px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    transform: scaleY(1.0022);
+    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+
+.exclusive1_text a {
+    font-family: "Montserrat-Bold";
+    margin-top: 30px;
+    display: block;
+    background: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    text-decoration: none;
+    border-radius: 22px;
+    text-align: center;
+    line-height: 45px;
+    color: #212121;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+}
+
+.exclusive1_text a:hover {
+    background: #ffffff url('img/arrow.png') no-repeat 173px 16px;
+}
+
+.exclusive2 {
+    background: url('img/promo-img.jpg') no-repeat;
+    width: 632px;
+    height: 470px;
+    padding-top: 213px;
+    padding-left: 51px;
+    position: absolute;
+    top: 0;
+    left: 683px;
+}
+
+.trending {
+    height: 735px;
+    background-color: rgb(255, 255, 255);
+}
+
+.trending_menu {
+    margin-left: 98px;
+    margin-top: 110px;
+}
+
+.trending_menu li {
+    list-style-type: none;
+    float: left;
+    font-family: "Montserrat-Bold";
+    color: #212121;
+    font-size: 36px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+}
+
+#trending_explore {
+    width: 900px;
+}
+
+#trending_explore a {
+    margin-left: 500px;
+    margin-top: 20px;
+    display: block;
+    font-family: "Montserrat-Bold";
+    color: #212121;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    vertical-align: bottom;
+    text-decoration: none;
+    border-bottom: 0px;
+}
+
+#trending_explore a:hover {
+    background: #ffffff url('img/arrow.png') no-repeat 275px 5px;
+}
+
+.trending_wrap {
+    min-height: 800px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 98px;
+    padding-right: 98px;
+    padding-top: 50px;
+}
+
+.trending_wrap_item1,
+.trending_wrap_item2,
+.trending_wrap_item3,
+.trending_wrap_item4,
+.trending_wrap_item5,
+.trending_wrap_item6 {
+    flex-grow: 0 1 370px;
+    height: 370px;
+}
+
+.deal {
+    margin-top: 260px;
+    height: 800px;
+    background: url('img/deal.jpg') no-repeat;
+    position: relative;
+}
+
+.deal_text {
+    position: absolute;
+    top: 10px;
+}
+
+.deal_text h3 {
+    color: #e53935;
+}
+
+.deal_circles {
+    position: absolute;
+    top: 600px;
+}
+
+.exclusive_second {
+    margin-top: 120px;
+    position: relative;
+}
+
+.exclusive3 {
+    background: url('img/product-1-lg.jpg') no-repeat;
+    width: 552px;
+    height: 470px;
+    padding-top: 175px;
+    padding-left: 30px;
+    margin-left: 98px;
+    float: left;
+    margin-right: 20px;
+}
+
+.exclusive4 {
+    margin-right: 80px;
+}
+
+.exclusive4 img {
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+
+.mobile {
+    margin-top: 95px;
+    height: 406px;
+    background: url('img/back-img.jpg') no-repeat;
+    padding-top: 110px;
+    padding-left: 99px;
+}
+
+.mobile_text {
+    text-align: left;
+}
+
+.mobile_text h3 {
+    font-family: "Montserrat-Bold";
+    color: #6c6c6c;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 48px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+.mobile_text h1 {
+    font-family: "Montserrat-Thin";
+    color: #212121;
+    font-size: 62px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 100;
+    line-height: 72px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-top: -10px;
+}
+
+.mobile_text p {
+    font-family: "Montserrat-Light";
+    color: #6c6c6c;
+    font-size: 22px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-top: 10px;
+}
+
+.mobile_text img {
+    margin-top: 30px;
+    margin-right: 5px;
+}
+
+.footer {
+    background-color: #f7f7f7;
+    width: 1267px;
+    height: 384px;
+    padding-top: 117px;
+    padding-left: 99px;
+}
+
+.adress_head {
+    font-family: "Montserrat-Bold";
+    color: #6c6c6c;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.footer_item1 {
+    float: left;
+    margin-right: 70px;
+}
+
+.footer_item2 {
+    float: left;
+    margin-right: 0px;
+}
+
+.footer_item3 {
+    margin-left: -30px;
+}
+
+.info {
+    float: left;
+    margin-right: 110px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.adress_text {
+    margin-top: 10px;
+    font-family: "Montserrat-Light";
+    color: #212121;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 22px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+.info1 {
+    float: left;
+    margin-right: 80px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.info li,
+.info1 li {
+    list-style-type: none;
+}
+
+.info li a,
+.info1 li a {
+    text-decoration: none;
+    font-family: "Montserrat-Bold";
+    color: #212121;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 26px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+.mail {
+    position: relative;
+}
+
+input[type="email"] {
+    margin-top: 22px;
+    padding-left: 10px;
+    border-width: 1px;
+    border-color: #d9dee1;
+    border-style: solid;
+    background-color: #ffffff;
+    width: 365px;
+    height: 46px;
+    font-family: "Montserrat-Light";
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+input[type="submit"] {
+    width: 30px;
+    height: 30px;
+    background: url(img/plane.png)no-repeat;
+    border: none;
+    position: absolute;
+    top: 40px;
+    left: 1170px;
+}
+
+.footer_item4 {
+    clear: both;
+    margin-top: 62px;
+}
+
+.footer_item4 span {
+    font-family: "Montserrat-Bold";
+    color: #6c6c6c;
+    font-size: 12px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 26px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    text-transform: uppercase;
+    float: left;
+}
+
+ul.social {
+    text-align: left;
+    margin-left: 173px;
+    margin-right: 170px;
+    float: left;
+}
+
+ul.social li {
+    list-style-type: none;
+    margin-right: 1px;
+    display: inline;
+}
+
+ul.social li a {
+    color: #f7f7f7;
+    font-size: 14px;
+    display: inline-block;
+    background: #6c6c6c;
+    width: 28px;
+    height: 28px;
+    text-decoration: none;
+    border-radius: 14px;
+    text-align: center;
+    line-height: 27px;
+}
+
+
+/*--------------------- products.html-----------------------*/
+
+.products_header {
+    height: 360px;
+    background-color: #f5f5f5;
+}
+
+.products_header h3 {
+    font-family: "Montserrat-Thin";
+    color: #212121;
+    font-size: 62px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 100;
+    line-height: 72px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-left: 98px;
+    margin-top: 155px;
+}
+
+.products_header .menu {
+    float: right;
+    margin-right: 155px;
+    margin-top: 49px;
+}
+
+.products_main {
+    min-height: 600px;
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.products_main_menu {
+    margin-left: 7px;
+    margin-top: 68px;
+}
+
+.products_main_menu li {
+    list-style-type: none;
+    float: left;
+    display: inline-block;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #6c6c6c;
+}
+
+.products_main_menu li a {
+    font-family: "Montserrat-Bold";
+    color: #6c6c6c;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+    text-decoration: none;
+    padding-bottom: 16px;
+    padding-right: 30px;
+    border-bottom: 1px solid #6c6c6c;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.products_main_menu li a:hover {
+    font-family: "Montserrat-Bold";
+    color: #212121;
+    border-bottom: 3px solid black;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.products_main_menu_wrap {
+    min-height: 1600px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 34px;
+}
+
+.trending_wrap_item1,
+.trending_wrap_item2,
+.trending_wrap_item3,
+.trending_wrap_item4,
+.trending_wrap_item5,
+.trending_wrap_item6 {
+    flex: 0 1 370px;
+    height: 370px;
+}
+
+.trending_wrap_item1 img,
+.trending_wrap_item2 img,
+.trending_wrap_item3 img,
+.trending_wrap_item4 img,
+.trending_wrap_item5 img,
+.trending_wrap_item6 img {
+    max-height: 100%;
+    max-width: 100%;
+    -webkit-flex: 1 1 100%;
+    -moz-flex: 1 1 100%;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+}
+
+
+/*.trending_wrap_item1 a:hover,
+.trending_wrap_item2 a:hover,
+.trending_wrap_item3 a:hover,
+.trending_wrap_item4 a:hover,
+.trending_wrap_item5 a:hover,
+.trending_wrap_item6 a:hover {
+    outline: 1px solid #6c6c6c;
+}*/
+
+.load {
+    margin: 55px 0 135px 15px;
+    text-align: center;
+}
+
+
+/*--------------contact.html-------------------------------*/
+
+.place_wrap {
+    display: inline-block;
+    height: 560px;
+    padding-left: 98px;
+}
+
+.place {
+    display: block;
+    float: left;
+    border-width: 1px;
+    border-color: #9c9c9c;
+    border-style: solid;
+    background-color: #ffffff;
+    opacity: 0.9;
+    width: 368px;
+    height: 368px;
+    margin-right: 30px;
+    margin-top: 70px;
+}
+
+.place h4 {
+    font-family: "Montserrat-Bold";
+    color: #212121;
+    font-size: 21.91px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 30px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleX(1.0041);
+    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    margin-top: 20px;
+}
+
+.place p {
+    font-family: "Montserrat-Bold";
+    color: #6c6c6c;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 20.082px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleX(1.0041);
+    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    margin-top: 10px;
+}
+
+.place a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.place img {
+    margin-top: 30px;
+}
+
+.p_bold {
+    color: #212121;
+}
+
+.p_thin {
+    font-family: "Montserrat-Light";
+}
+
+
+/*----------------product_details.html------------------*/
+
+#detail_header {
+    background-color: rgb(255, 255, 255);
+    height: 114px;
+}
+
+.detail_menu {
+    background-color: rgb(244, 244, 244);
+    height: 43px;
+    margin-top: 5px;
+    padding-left: 360px;
+    padding-top: 23px;
+}
+
+.detail_menu li {
+    list-style-type: none;
+    float: left;
+    display: inline-block;
+}
+
+.detail_menu li a {
+    font-family: "Montserrat-Bold";
+    color: #6c6c6c;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+.detail_menu li a:hover {
+    font-family: "Montserrat-Bold";
+    color: #212121;
+}
+
+.details_img {
+    float: left;
+    margin-top: 77px;
+    margin-left: 100px;
+}
+
+.details_text {
+    float: left;
+    margin-top: 115px;
+    margin-left: 77px;
+    margin-bottom: -40px;
+}
+
+.details_text h1 {
+    font-family: "Montserrat-Bold";
+    color: #212121;
+    font-size: 35.98px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: center;
+    transform: scaleY(1.0005);
+    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+
+.details_text h3 {
+    font-family: "Montserrat-Bold";
+    color: #e53935;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 48px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleY(1.0005);
+    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+
+.details_text h2 {
+    color: #212121;
+    font-size: 72px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 48px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+.details_text span {
+    font-size: 36px;
+    /* Приближение из-за подстановки шрифтов */
+}
+
+.details_text p {
+    font-family: "Montserrat-Light";
+    color: #212121;
+    font-size: 16px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-top: 30px;
+}
+
+.details_text a {
+    font-family: "Montserrat-Bold";
+    margin-top: 30px;
+    display: block;
+    background: #f44336;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 500px;
+    height: 60px;
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 60px;
+    color: #ffffff;
+    ;
+    font-size: 21.99px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+}
+
+.details_text a:hover {
+    background: #f44336 url('img/arrow3.png') no-repeat 323px 16px;
+}
+
+.control1 {
+    margin-left: 250px;
+    clear: both;
+}
+
+.control {
+    margin-right: 7px;
+}
+
+.related {
+    margin-top: 233px;
+    margin-bottom: -140px;
+}
+
+.related_wrap {
+    padding-top: 10px;
+    height: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 98px;
+    padding-right: 98px;
+    padding-top: 50px;
+}
